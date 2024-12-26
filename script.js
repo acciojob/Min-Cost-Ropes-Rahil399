@@ -4,7 +4,7 @@ function mincost(arr)
 
 	    let totalCost = 0;
 	
-	    while(arr,length > 1){
+	    while(arr.length > 1){
 	        const smallest1 = arr.shift();
 	        const smallest2 = arr.shift();
 	
